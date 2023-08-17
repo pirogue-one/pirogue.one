@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Сайт-визитка</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a></a><h2 class="logo">PIROGUE-ONE</h2></a>
+    <header class="header">
+        <a>
+            <h2 class="logo">PIROGUE-ONE</h2>
+        </a>
         <ul class="menu">
             <li class="menu__li"><a>Проекты</a></li>
             <li class="menu__li"><a>Обо мне</a></li>
             <li class="menu__li"><a>Контакты</a></li>
         </ul>
     </header>
-    <main>
+    <main class="main">
         <section class="hero">
-            <h1 class="title main-title"></h1>
+            <div class="hero-content">
+                <h1 class="main-title">Приветсвую! Меня зовут <span class="accent-1">Алёна</span>. Я начинающий <span class="accent-1">frontend</span> <span class="accent-2">разработчик.</span></h1>
+                <p class="description">Здесь Вы можете ознакомиться с моими навыками, а также взглять на выполененые
+                    мной проекты.</p>
+            </div>
         </section>
         <section class="gallery">
             <h2 class="title">Мои проекты</h2>
@@ -28,14 +38,19 @@
             <div class="card"></div>
         </section>
         <section class="about-me">
-            <h2 class="title">Обо мне</h2> 
+            <a>
+                <h2 class="title">Обо мне</h2>
+            </a>
         </section>
         <section class="contacts">
-            <h2 class="title">Контакты</h2> 
+            <a>
+                <h2 class="title">Контакты</h2>
+            </a>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
 
     </footer>
 </body>
+
 </html>
