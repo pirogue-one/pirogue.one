@@ -20,16 +20,23 @@ body {
     font-size: 1rem;
 }
 
+section {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .logo {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .menu {
@@ -74,9 +81,46 @@ body {
     -webkit-text-stroke: 2px #ffffff;
 }
 
+.description {
+    font-size: 1.5rem;
+}
+
 .title {
     font-weight: 300;
     font-size: 1.5rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    height: fit-content;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover > .card__description {
+    transform: translateY(0);
+    
+}
+
+.card img {
+    width: 100%;
+}
+
+.card__description {
+    padding: 1rem;
+    position:absolute;
+    bottom: 4px;
+    right: 0;
+    left: 0;
+    transform: translateY(100%);
+    background-color: rgb(115, 115, 214);
+    transition: all ease-in .3s;
 }
 
 
