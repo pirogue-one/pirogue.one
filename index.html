@@ -15,10 +15,10 @@
         <a>
             <h2 class="logo">PIROGUE-ONE</h2>
         </a>
-        <ul class="menu">
-            <li class="menu__li"><a>Проекты</a></li>
-            <li class="menu__li"><a>Обо мне</a></li>
-            <li class="menu__li"><a>Контакты</a></li>
+        <ul class="list menu-list">
+            <li class="menu__li"><a href="#projects">Проекты</a></li>
+            <li class="menu__li"><a href="#about-me">Обо мне</a></li>
+            <li class="menu__li"><a href="#contacts">Контакты</a></li>
         </ul>
     </header>
     <main class="main">
@@ -30,34 +30,51 @@
                     мной проекты.</p>
             </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2 class="title">Мои проекты</h2>
             <div class="gallery">
                 <div class="card">
-                    <a href="https://pirogue-one.github.io/landing-page-home-legacy/" target="_blank"><img src="./images/legacy-homes-s.jpg" alt="Превью проекта"></a>
+                    <a href="https://pirogue-one.github.io/landing-page-home-legacy/" target="_blank"><img
+                            src="./images/legacy-homes-s.jpg" alt="Превью проекта"></a>
                     <p class="card__description">Минималистичный одностраничный сайт, сверстанный без использования
                         фрейморков и сторонних библиотек. Некоммерческая работа.</p>
                 </div>
                 <div class="card">
-                    <a href="https://vinylocator.com/" target="_blank"><img src="./images/vinylocator-s (2).png" alt="Превью проекта"></a>
+                    <a href="https://vinylocator.com/" target="_blank"><img src="./images/vinylocator-s (2).png"
+                            alt="Превью проекта"></a>
                     <p class="card__description">Сайт по поиску дешевого винила в Москве. Разработан на React.
                         Коммерческая работа.</p>
                 </div>
                 <div class="card">
-                    <a href="https://pirogue-one.github.io/login_page/" target="_blank"><img src="./images/image_2023-05-12_18-08-16.png" alt="Превью проекта"></a>
+                    <a href="https://pirogue-one.github.io/login_page/" target="_blank"><img
+                            src="./images/image_2023-05-12_18-08-16.png" alt="Превью проекта"></a>
                     <p class="card__description">Страница авторизации для сайта.</p>
                 </div>
             </div>
         </section>
-        <section class="about-me">
-            <a>
-                <h2 class="title">Обо мне</h2>
-            </a>
+        <section id="about-me" class="about-me">
+            <h2 class="title">Обо мне</h2>
+            <div class="skills-content">
+                <ul class="list skills-list">
+                    <li class="skills-list__item list-item">Отлично знаю html5, css3, javasсript и react.js</li>
+                    <li class="skills-list__item list-item">Работаю как на React, так и на чистом html, css + js</li>
+                    <li class="skills-list__item list-item">Отлично выполняю адаптивную отзывчиваю верстку</li>
+                    <li class="skills-list__item list-item">Внимательно отношусь к макетам, могу верстать pixel perfect</li>
+                    <li class="skills-list__item list-item">Умею и люблю рабоать с CSS анимацией</li>
+                    <li class="skills-list__item list-item">Пишу валидный, чистый и семантически верный код</li>
+                    <li class="skills-list__item list-item">Владею методогией БЭМ</li>
+                </ul>
+
+                <p class="skills-content__tech">Технические навыки:</br>
+                    HTML(HTML5), CSS(CSS3), JavaScript, React.js, БЭМ, Git, SCSS, Flexbox, Grid</p>
+            </div>
         </section>
-        <section class="contacts">
-            <a>
-                <h2 class="title">Контакты</h2>
-            </a>
+        <section id="contacts" class="contacts">
+            <h2 class="title">Контакты</h2>
+            <ul class="list contacts-list">
+                <li class="contacts-list__item list-item"><a href="https://t.me/aaleriu" target="_blank">Телеграм</a></li>
+                <li class="contacts-list__item list-item"><a href="https://github.com/pirogue-one" target="_blank">GitHub</a></li>
+            </ul>
         </section>
     </main>
     <footer class="footer">
