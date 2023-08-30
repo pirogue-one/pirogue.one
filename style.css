@@ -195,4 +195,10 @@ section {
     .card {
         width: 100%;
     }
+
+    .card:active>.card__description,
+    .card:focus>.card__description {
+        transform: translateY(0);
+    
+    }
 }
