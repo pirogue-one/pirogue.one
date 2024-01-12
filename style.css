@@ -85,6 +85,10 @@ section {
     font-size: 5rem;
 }
 
+h3 {
+    color: #7373d6;
+}
+
 .accent-1 {
     font-weight: 900;
 }
